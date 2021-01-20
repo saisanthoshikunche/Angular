@@ -1,0 +1,8 @@
+<div>{{name}} here
+    <h1>{{"displaying the name with interpolation" + name}}</h1>
+</div>
+<input #myInput type="text">
+<button type="button" class="btn btn-success" (click)="onsubmit(myInput.value)"> click </button><br>
+{{greeting}}<br>
+<input [(ngModel)]="sai" type="text">
+{{sai}}
